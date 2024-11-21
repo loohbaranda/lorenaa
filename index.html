@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>
+                Você está no cais, pronto para embarcar no seu barco, o “Desbravador”. O sol está se pondo, e o mapa antigo em suas mãos mostra uma ilha distante. Sua primeira decisão será crucial.</p>
+            <button class="btn-proximo" data-proximo="1">Navegar à noite, seguindo o mapa que pode revelar uma pista secreta. </button>
+            <button class="btn-proximo" data-proximo="2">Esperar até o amanhecer para uma partida mais segura e visível.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide partir à noite. A lua ilumina o caminho e o som das ondas é calmante. Depois de algumas horas, você percebe um brilho distante no horizonte, não previsto no mapa. Você se aproxima e descobre uma mensagem em uma garrafa flutuante.</p>
+            <button class="btn-proximo" data-proximo="3">Abrir a garrafa e ler a mensagem. </button>
+            <button class="btn-proximo" data-proximo="4">Ignorar a mensagem e continuar navegando em direção à ilha.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide esperar até o amanhecer. O sol nasce e ilumina o caminho para a ilha. Quando se aproxima da ilha, você vê duas entradas possíveis na densa vegetação: uma parece ser uma trilha natural, e a outra é um túnel escuro.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir pela trilha natural. </button>
+            <button class="btn-proximo" data-proximo="6">Entrar no túnel escuro.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A mensagem na garrafa diz: “O verdadeiro tesouro não está no ouro, mas nas estrelas que guiam sua jornada.” Parece uma pista enigmática. À medida que você reflete sobre a mensagem, o barco é atingido por granizo em  uma tempestade inesperada . Você deve pular do barco.</p>
+            <button class="btn-proximo" data-proximo="7">Pular do barco </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você ignora a mensagem e continua. Mas pela maré você se deparou com uma tempestade com fortes raios, então os raios danificam seu barco. Agora você deve pular do barco.</p>
+            <button class="btn-proximo" data-proximo="7">Pular do barco</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A trilha natural leva a um caminho subterrâneo com várias passagens. Um mapa na parede da caverna mostra que apenas uma passagem leva à superfície onde o tesouro pode estar escondido.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir o caminho do mapa </button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.png" alt="">
+            <p>então continua nadando, até que enfim cheguei na ilha, no próximo capitulo a gente descobre se vamos achar o tesouro.</p>
+            
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.png" alt="">
+            <p>chegando na superfície, até que enfim  encontrei o tão grande tesouro.</p>
+            
+        </div>
+
+
+
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
